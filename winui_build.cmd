@@ -1,0 +1,1 @@
+gcc scanner/scanner.c scanner/dfa.c parser/parser.c errlog/errlog.c semantics/semantics.c ui_main/winGUI.c -o win_ui.exe -D _PARSER_WITH_SEMANTICS -l gdi32

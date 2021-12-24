@@ -1,0 +1,1 @@
+gcc scanner/scanner.c scanner/dfa.c parser/parser.c parser/parsermain.c errlog/errlog.c -o parser.exe
